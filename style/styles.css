@@ -160,9 +160,13 @@ width: 689px;
   margin-left: 100px;
   display: flex;
 }
+.titulo{
+  margin-left: 550px;
+  font-size: 50px;
+}
 .card{
   display: flex;
-  margin-left: 200px;
+  margin-left: -800px;
   margin-top: 200px;
   height: 450px;
   width: 1000px;
@@ -247,9 +251,90 @@ width: 689px;
   background-image: url(../assets/images/contact-bk.jpg);
   height: 700px;
   color: white;
-  
+  margin-top: 0px;
 }
 .text{
+  margin-left: 100px;
+  padding-top: 200px;
+}
+.text h1{
+  font-size: 50px;
+}
+.text p{
+  font-size: 20px;
+}
+.imput{
+  margin-left: 1100px;
+  margin-top: -330px;
+}
+.name input{
+  background-color: transparent;
+  border: 1px solid rgb(0,255,173);
+  border-radius: 5px;
+  height: 30px;
+  width: 300px;
+  font-weight: lighter;
+}
+.name h3{
+  color: rgb(0,255,173);
+}
+.email{
+  margin-left: 350px;
+  margin-top: -93px;
+}
+.email input{
+  background-color: transparent;
+  border: 1px solid rgb(0,255,173);
+  border-radius: 5px;
+  height: 30px;
+  width: 300px;
+  font-weight: lighter;
+}
+.email h3{
+  color: rgb(0,255,173);
+}
+.mensaje textarea{
+  background-color: transparent;
+  border: 1px solid rgb(0,255,173);
+  border-radius: 5px;
+  height: 90px;
+  width: 650px;
+  font-weight: lighter;
+}
+.mensaje h3 {
+  color: rgb(0,255,173);
+}
+.imput button{
+  background-color: rgb(0,255,173);
+  height: 50px;
+  width: 650px;
+  border-radius: 50px;
+  font-size: 17px;
+  color: rgb(25, 36, 64);
+  font-weight: 750;
+  margin-top: 20px;
+  border: 1px solid rgb(0,255,173);
+}
+.footer{
+  background-color: rgb(25, 36, 64);
+  height: 120px;
+  margin-top: -20px;
   display: flex;
-  flex-direction: column;
+}
+.footer h3{
+  padding-top: 50px;
+  margin-left: 50px;
+  color: white;
+  font-weight: lighter;
+  width: 1000px;
+}
+.footerimg {
+  width: 1000px;
+  height: 35px;
+  margin-left: 1300px;
+  margin-top: 70px;
+}
+.footerimg img{
+  height: 25px;
+  width: 25px;
 }
